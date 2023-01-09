@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BuscanApplication<buscan>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ejemplo2.buscan.BuscanApplication",
+            "projectName": "buscan",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
