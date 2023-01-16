@@ -1,5 +1,7 @@
 package com.ejemplo2.buscan.controller;
 
+import java.util.Arrays;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +12,7 @@ public class BuscanController {
 
     @GetMapping("/servicios")
     public String goToServicios(Model model){
-        model.addAttribute("name", "Bienvenid@ a mi pagina");
+        model.addAttribute("nombre", "Bienvenid@ a mi pagina");
         return "servicios";
     }
 
